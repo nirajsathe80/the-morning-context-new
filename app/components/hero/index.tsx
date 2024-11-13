@@ -9,7 +9,6 @@ const Hero = () => {
         height={700}
         width={700}
         className="sm:hidden block"
-        loading="eager"
       />
       <Image
         src="/hero-banner.png"
@@ -17,7 +16,6 @@ const Hero = () => {
         height={1480}
         width={1480}
         className="hidden sm:block"
-        loading="eager"
       />
     </>
   );
