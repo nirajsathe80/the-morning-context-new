@@ -7,15 +7,22 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.button-bg {
+  background: linear-gradient(90.97deg, #43cebd 0%, #6fb5e9 99.9%);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.hero-background {
+  background: url("https://s3-alpha-sig.figma.com/img/8154/4bf9/e8c9c0c8e6de848ecd8ca8d50cd98416?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bnEbczKz8~Q3LFC~sEQ18tzullwwyhdTYBX7YKnk8MYDLzMbS6RVsNnSas19wrdb~ZTjGErAkxT9j-Z7EgfumyApXxqAAEYrTBn0whwOyCqjsIArH8VckBwIIsm94tLWSlyvSBsHzaJ2RMfhUpHKP0pdJduiOxVHhU2VzkyYVlFZciGyxtWcg6UATXukjHTuDJ2IRWSU-k7aU1pHKzgo0VhmE8yiYyuu3e~FosF-c6MjsxZnDYSI0Re9YbtxKv2HAb7kcfLzBYf6VVwD32cExVfSVYb~Y759F1BeBPeSyi2Nr0rb9uWI3SW6H~DeCtlTIW1T1emjuwDnAp~ZFc7OJg__");
+}
+
+.hero-flag {
+  transform: scaleX(-1);
+}
+
+.scroll-bar-width::-webkit-scrollbar {
+  display: none;
+}
+.scroll-bar-width {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
