@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div>
+    <>
       <Image
-        src="/hero.svg"
+        src="/hero.png"
         alt="hero"
         height={700}
         width={700}
@@ -12,14 +12,14 @@ const Hero = () => {
         loading="eager"
       />
       <Image
-        src="/hero-desktop.svg"
+        src="/hero-banner.png"
         alt="hero-desktop"
         height={1480}
         width={1480}
         className="hidden sm:block"
         loading="eager"
       />
-    </div>
+    </>
   );
 };
 
