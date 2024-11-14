@@ -6,7 +6,7 @@ const NewsLetter = () => {
   return (
     <div>
       <div className="bg-[#FFF9F1] pt-7  text-[#292929] ">
-        <div className="sm:w-[95vw] sm:max-w-[1280px] sm:mx-auto sm:flex sm:gap-10">
+        <div className="sm:w-[95vw] sm:max-w-[1280px] sm:mx-auto md:flex md:gap-10">
           <div>
             <h1 className="text-[34px] leading-[51px]  font-bold px-4">
               Stay Informed with our Weekly FinTech Newsletter
