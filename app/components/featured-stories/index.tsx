@@ -6,7 +6,10 @@ const FeaturedStories = () => {
   return (
     <div className="bg-[#FFF9F1] py-6 px-4">
       <div className="sm:w-[95vw] sm:max-w-[1280px] sm:mx-auto">
-        <Title title="Featured Story" />
+        <Title
+          title="Featured Story"
+          className="sm:!bg-[#FFF9F1] sm:!px-[12px] "
+        />
         <div className="mt-6">
           {featuredStoriesData.map(
             (
