@@ -100,18 +100,23 @@ export const hashTagsData = [
 export const logos = [
   {
     src: "facebook.svg",
+    url: "https://www.facebook.com/Morningcontext/",
   },
   {
     src: "twitter.svg",
+    url: "https://x.com/MorningContext",
   },
   {
     src: "linkedin.svg",
+    url: "https://www.linkedin.com/company/the-morning-context/",
   },
   {
     src: "instagram.svg",
+    url: "https://www.instagram.com/themorningcontext/",
   },
   {
     src: "youtube.svg",
+    url: "https://www.youtube.com/channel/UCYAZQvp_LMnL_IAVB8L-rOQ",
   },
 ];
 

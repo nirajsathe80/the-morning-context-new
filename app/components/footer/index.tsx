@@ -13,9 +13,11 @@ const Footer = () => {
             Follow us on
           </p>
           <div className="flex justify-between mt-6">
-            {logos.map(({ src }) => {
+            {logos.map(({ src, url }) => {
               return (
-                <Image src={src} alt={src} height={18} width={18} key={src} />
+                <a href={url} target="_blank" key={src}>
+                  <Image src={src} alt={src} height={18} width={18} />
+                </a>
               );
             })}
           </div>
