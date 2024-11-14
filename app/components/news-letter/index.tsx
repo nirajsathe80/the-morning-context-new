@@ -21,7 +21,7 @@ const NewsLetter = () => {
               </button>
             </div>
           </div>
-          <Image src="/banner.svg" alt="banner" height={400} width={600} />
+          <Image src="/banner.png" alt="banner" height={400} width={600} />
         </div>
       </div>
       <div className="sm:w-[95vw] sm:max-w-[1280px] sm:mx-auto">
