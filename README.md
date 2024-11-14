@@ -47,3 +47,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     1. Button
     2. Card
     3. Heading Title
+
+## Images
+    - Images such as svg and png are in public folder
+
+## Next configuration
+    - want to add new hostname url images then please add the new domain/hostname to next.config.ts file
+
+
+##Configurations
+    - Eslint and prettier used to style the tabs and to remove warnings
